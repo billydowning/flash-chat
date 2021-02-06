@@ -23,7 +23,7 @@ class RegisterViewController: UIViewController {
                     //create a pop-up for the error if deploying for production
                 } else {
                     //Navigate to the ChatViewController
-                    self.performSegue(withIdentifier: "RegisterToChat", sender: self)
+                    self.performSegue(withIdentifier: K.registerSegue, sender: self)
                 }
             }
         }
